@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do List</title>
+</head>
+<body>
+    <div id="div_main">
+        <div id="div_1">
+            <input id="input_ajout" type="text" placeholder="ajouter un rappel">
+            <button id="btn_ajout">Ajouter</button>
+        </div>
+
+        <div id="div_2">
+            <button class="btn_select" id="btn_toutes"><p>Toutes</p></button>
+            <button class="btn_select" id="btn_a_faire"><p>A faire</p></button>
+            <button class="btn_select" id="btn_faites"><p>Faites</p></button>
+        </div>
+
+        <div id="div_3">
+            <ul id="ul_todo">
+                <li id="li_1">
+                    <div class="li">
+                        <div class="li_left">
+                            <input type="checkbox" id="todo_1">
+                            <p class="p_todo" id="p_todo_1">Acheter un van</p>
+                        </div>
+                        <div class="li_right">
+                            <button class="poubelle" id="btn_supp_1"><img class="img_poubelle" src="poubelle.png" alt="poubelle"></button>
+                        </div>
+                    </div>
+                </li>
+                <li id="li_2">
+                    <div class="li">
+                        <div class="li_left">
+                            <input type="checkbox" id="todo_2">
+                            <p class="p_todo" id="p_todo_2">Entrainement 5k</p>
+                        </div>
+                        <div class="li_right">
+                            <button class="poubelle" id="btn_supp_2"><img class="img_poubelle" src="poubelle.png" alt="poubelle"></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>       
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
